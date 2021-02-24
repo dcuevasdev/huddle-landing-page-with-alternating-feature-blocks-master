@@ -1,0 +1,42 @@
+/*==============================
+  COLORS
+  ==============================*/
+/*==============================
+  FONTS
+  ==============================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.button {
+  display: block;
+  width: 215px;
+  height: 45px;
+  background-color: #ccc;
+  border-radius: 50px;
+}
+
+.header {
+  width: 100%;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.header__logo {
+  width: 150px;
+}

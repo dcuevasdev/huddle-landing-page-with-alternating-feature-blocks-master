@@ -16,8 +16,15 @@ html {
 
 .button {
   display: block;
-  width: 215px;
-  height: 45px;
-  background-color: #ccc;
+  width: 280px;
+  height: 50px;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: $color-title;
+  background-color: #eee;
   border-radius: 50px;
+  box-shadow: 0 3px 10px #ccc;
 }

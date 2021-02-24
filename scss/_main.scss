@@ -1,0 +1,50 @@
+.main {
+  background-color: $color-background;
+}
+.header {
+  width: 100%;
+  padding-top: 50px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    width: 150px;
+  }
+  &__button {
+    width: 160px;
+    background-color: white;
+  }
+}
+
+.presentation {
+  margin-top: 80px;
+  &__content {
+    text-align: center;
+  }
+  &__h1 {
+    padding: 2px;
+    font-family: $heading-font;
+    font-size: 3rem;
+    color: $color-title;
+  }
+  &__p {
+    margin-top: 25px;
+    padding: 1px;
+    font-size: 1.8rem;
+    color: $color-title;
+  }
+  &__button {
+    margin: 25px auto 0 auto;
+    color: white;
+    background-color: $color-buttons;
+  }
+  &__figure {
+    width: 100%;
+    margin: 50px auto 0 auto;
+  }
+  &__mockups {
+    width: 100%;
+  }
+}

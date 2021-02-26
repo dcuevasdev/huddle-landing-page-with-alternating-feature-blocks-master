@@ -36,6 +36,7 @@ html {
 }
 
 .main {
+  padding-bottom: 50px;
   background-color: #ebfbff;
   background-image: url("../images/bg-hero-mobile.svg");
   background-position-y: 78px;
@@ -88,4 +89,36 @@ html {
 }
 .presentation__mockups {
   width: 100%;
+}
+
+.features {
+  margin: 120px 0 0 0;
+}
+.features__cards {
+  margin: 0 auto;
+}
+.features__card {
+  margin-bottom: 50px;
+  padding: 50px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px #ccc;
+}
+.features__figure {
+  width: 90%;
+}
+.features__img {
+  width: 100%;
+}
+.features__texts {
+  margin-top: 50px;
+  text-align: center;
+}
+.features__h2 {
+  margin-bottom: 25px;
+  font-size: 2.5rem;
+  color: #00252e;
+}
+.features__p {
+  font-size: 1.8rem;
+  color: #808d99;
 }

@@ -1,0 +1,31 @@
+.features {
+  margin: 120px 0 0 0;
+  &__cards {
+    margin: 0 auto;
+  }
+  &__card {
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px #ccc;
+  }
+  &__figure {
+    width: 90%;
+  }
+  &__img {
+    width: 100%;
+  }
+  &__texts {
+    margin-top: 50px;
+    text-align: center;
+  }
+  &__h2 {
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    color: $color-title;
+  }
+  &__p {
+    font-size: 1.8rem;
+    color: $color-fonts;
+  }
+}

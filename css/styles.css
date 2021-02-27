@@ -1,3 +1,51 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?xtk0nn");
+  src: url("../fonts/icomoon.eot?xtk0nn#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?xtk0nn") format("truetype"), url("../fonts/icomoon.woff?xtk0nn") format("woff"), url("../fonts/icomoon.svg?xtk0nn#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin:before {
+  content: "";
+}
+
+.icon-social:before {
+  content: "";
+}
+
+.icon-twitter:before {
+  content: "";
+}
+
+.icon-social1:before {
+  content: "";
+}
+
+.icon-facebook:before {
+  content: "";
+}
+
+.icon-social2:before {
+  content: "";
+}
+
 /*==============================
   COLORS
   ==============================*/
@@ -121,4 +169,83 @@ html {
 .features__p {
   font-size: 1.8rem;
   color: #808d99;
+}
+
+.footer {
+  width: 100%;
+  background-color: #00252e;
+}
+.footer__content {
+  padding-top: 280px;
+}
+.footer__contact {
+  margin-bottom: 50px;
+}
+.footer__logo {
+  margin-bottom: 25px;
+}
+.footer__text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+  color: white;
+}
+.footer__ubication, .footer__phone, .footer__email {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer__ubication {
+  margin-top: 4px;
+  background-image: url("../images/icon-location.svg");
+}
+.footer__phone {
+  background-image: url("../images/icon-phone.svg");
+}
+.footer__email {
+  background-image: url("../images/icon-email.svg");
+}
+.footer__p {
+  width: 90%;
+}
+.footer__nav {
+  margin-bottom: 50px;
+}
+.footer__list {
+  font-size: 1.8rem;
+  list-style: none;
+}
+.footer__list li {
+  margin: 25px 0;
+}
+.footer__list li a {
+  color: white;
+  text-decoration: none;
+}
+.footer__list li a:hover {
+  text-decoration: underline;
+}
+.footer .footer__socials {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.footer .footer__socials .icon {
+  padding: 5px;
+  font-size: 5rem;
+  color: white;
+}
+.footer .footer__attribution {
+  padding-bottom: 50px;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #ccc;
+}
+.footer .footer__attribution p {
+  padding: 3px;
+}
+.footer .footer__attribution a {
+  text-decoration: none;
+  color: white;
 }

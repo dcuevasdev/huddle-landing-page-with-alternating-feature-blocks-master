@@ -1,0 +1,80 @@
+.footer {
+  width: 100%;
+  background-color: $color-title;
+  &__content {
+    padding-top: 280px;
+  }
+  &__contact {
+    margin-bottom: 50px;
+  }
+  &__logo {
+    margin-bottom: 25px;
+  }
+  &__text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: white;
+  }
+  &__ubication,
+  &__phone,
+  &__email {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__ubication {
+    margin-top: 4px;
+    background-image: url("../images/icon-location.svg");
+  }
+  &__phone {
+    background-image: url("../images/icon-phone.svg");
+  }
+  &__email {
+    background-image: url("../images/icon-email.svg");
+  }
+  &__p {
+    width: 90%;
+  }
+  &__nav {
+    margin-bottom: 50px;
+  }
+  &__list {
+    font-size: 1.8rem;
+    list-style: none;
+    li {
+      margin: 25px 0;
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .footer__socials {
+    margin-bottom: 25px;
+    text-align: center;
+    .icon {
+      padding: 5px;
+      font-size: 5rem;
+      color: white;
+    }
+  }
+  .footer__attribution {
+    padding-bottom: 50px;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #ccc;
+    p {
+      padding: 3px;
+    }
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}

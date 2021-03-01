@@ -140,7 +140,7 @@ html {
 }
 
 .features {
-  margin: 120px 0 0 0;
+  margin: 120px 0 250px 0;
 }
 .features__cards {
   margin: 0 auto;
@@ -171,12 +171,30 @@ html {
   color: #808d99;
 }
 
+.card {
+  position: relative;
+  width: 100%;
+}
+.card__box {
+  position: absolute;
+  top: calc(100% - 100px);
+  width: 90%;
+  height: 200px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 -5px 11px #eee;
+}
+.card__box h2 {
+  text-align: center;
+}
+
 .footer {
   width: 100%;
   background-color: #00252e;
 }
 .footer__content {
-  padding-top: 280px;
+  padding-top: 230px;
 }
 .footer__contact {
   margin-bottom: 50px;

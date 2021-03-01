@@ -107,6 +107,9 @@ html {
   width: 160px;
   background-color: white;
 }
+.header__try:hover .header__button {
+  color: #808d99;
+}
 
 .presentation {
   margin-top: 80px;
@@ -130,6 +133,9 @@ html {
   margin: 25px auto 0 auto;
   color: white;
   background-color: #ff52bf;
+}
+.presentation__button:hover {
+  background-color: #ff52bfc7;
 }
 .presentation__figure {
   width: 100%;
@@ -249,10 +255,16 @@ html {
   margin-bottom: 25px;
   text-align: center;
 }
+.footer .footer__socials a {
+  text-decoration: none;
+}
 .footer .footer__socials .icon {
   padding: 5px;
   font-size: 5rem;
   color: white;
+}
+.footer .footer__socials a:hover .icon {
+  color: #ff52bf;
 }
 .footer .footer__attribution {
   padding-bottom: 50px;
@@ -266,4 +278,8 @@ html {
 .footer .footer__attribution a {
   text-decoration: none;
   color: white;
+}
+.footer .footer__attribution a:hover {
+  text-decoration: underline;
+  color: #ff52bf;
 }

@@ -20,6 +20,9 @@
     width: 160px;
     background-color: white;
   }
+  &__try:hover &__button {
+    color: $color-fonts;
+  }
 }
 
 .presentation {
@@ -43,6 +46,9 @@
     margin: 25px auto 0 auto;
     color: white;
     background-color: $color-buttons;
+  }
+  &__button:hover {
+    background-color: #ff52bfc7;
   }
   &__figure {
     width: 100%;

@@ -1,3 +1,32 @@
-body {
-  color: red;
+/*==================
+  Seccion main
+  ===================*/
+.presentation__content {
+  display: flex;
+  align-items: center;
+}
+.presentation__texts {
+  width: 50%;
+  padding-right: 35px;
+  text-align: left;
+}
+.presentation__h1 {
+  font-size: 3.5rem;
+  line-height: 50px;
+}
+.presentation__button {
+  margin: 25px 0 0;
+}
+.presentation__figure {
+  width: 50%;
+  margin-top: 0;
+}
+
+/*==================
+  Seccion features
+  ===================*/
+.features__card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

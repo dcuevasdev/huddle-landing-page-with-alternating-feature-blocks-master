@@ -1,1 +1,36 @@
+/*==================
+  Seccion main
+  ===================*/
+.presentation {
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+  &__texts {
+    width: 50%;
+    padding-right: 35px;
+    text-align: left;
+  }
+  &__h1 {
+    font-size: 3.5rem;
+    line-height: 50px;
+  }
+  &__button {
+    margin: 25px 0 0;
+  }
+  &__figure {
+    width: 50%;
+    margin-top: 0;
+  }
+}
 
+/*==================
+  Seccion features
+  ===================*/
+.features {
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

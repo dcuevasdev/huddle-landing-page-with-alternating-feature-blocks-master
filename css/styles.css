@@ -184,6 +184,9 @@ html {
 .card__box {
   position: absolute;
   top: calc(100% - 100px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   width: 90%;
   height: 200px;
   padding: 20px;
@@ -192,7 +195,12 @@ html {
   box-shadow: 0 -5px 11px #eee;
 }
 .card__box h2 {
+  width: 100%;
+  margin-bottom: 0;
   text-align: center;
+}
+.card__box a {
+  margin-top: 0;
 }
 
 .footer {

@@ -27,3 +27,24 @@
 /*==================
   Seccion features
   ===================*/
+.features {
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__texts {
+    margin: 0 30px 0 0;
+    text-align: left;
+  }
+  &__figure {
+    &_one,
+    &_three {
+      margin-left: 30px;
+      order: 2;
+    }
+  }
+  &__img {
+    width: 90%;
+  }
+}

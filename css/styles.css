@@ -87,7 +87,8 @@ html {
   padding-bottom: 50px;
   background-color: #ebfbff;
   background-image: url("../images/bg-hero-mobile.svg");
-  background-position-y: 78px;
+  background-position-x: 100px;
+  background-position-y: 0px;
   background-repeat: no-repeat;
 }
 

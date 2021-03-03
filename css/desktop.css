@@ -35,3 +35,30 @@
 .features__figure_one, .features__figure_three {
   margin-left: 30px;
 }
+
+/*==================
+  Seccion footer
+  ===================*/
+.footer__content {
+  display: flex;
+}
+.footer__contact {
+  width: 480px;
+  margin-right: 40px;
+}
+.footer__nav {
+  width: 470px;
+}
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer__list li {
+  width: 50%;
+}
+.footer__socials {
+  width: 230px;
+}
+.footer__attribution {
+  text-align: right;
+}

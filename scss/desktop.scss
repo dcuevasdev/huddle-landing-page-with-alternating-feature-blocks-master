@@ -41,3 +41,32 @@
     }
   }
 }
+
+/*==================
+  Seccion footer
+  ===================*/
+.footer {
+  &__content {
+    display: flex;
+  }
+  &__contact {
+    width: 480px;
+    margin-right: 40px;
+  }
+  &__nav {
+    width: 470px;
+  }
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      width: 50%;
+    }
+  }
+  &__socials {
+    width: 230px;
+  }
+  &__attribution {
+    text-align: right;
+  }
+}

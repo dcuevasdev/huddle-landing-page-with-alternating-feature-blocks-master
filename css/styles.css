@@ -264,35 +264,35 @@ html {
 .footer__list li a:hover {
   text-decoration: underline;
 }
-.footer .footer__socials {
+.footer__socials {
   margin-bottom: 25px;
   text-align: center;
 }
-.footer .footer__socials a {
+.footer__socials a {
   text-decoration: none;
 }
-.footer .footer__socials .icon {
+.footer__socials .icon {
   padding: 5px;
   font-size: 5rem;
   color: white;
 }
-.footer .footer__socials a:hover .icon {
+.footer__socials a:hover .icon {
   color: #ff52bf;
 }
-.footer .footer__attribution {
+.footer__attribution {
   padding-bottom: 50px;
   font-size: 1.4rem;
   text-align: center;
   color: #ccc;
 }
-.footer .footer__attribution p {
+.footer__attribution p {
   padding: 3px;
 }
-.footer .footer__attribution a {
+.footer__attribution a {
   text-decoration: none;
   color: white;
 }
-.footer .footer__attribution a:hover {
+.footer__attribution a:hover {
   text-decoration: underline;
   color: #ff52bf;
 }

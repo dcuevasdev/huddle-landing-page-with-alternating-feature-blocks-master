@@ -183,12 +183,16 @@ html {
 }
 .card__box {
   position: absolute;
-  top: calc(100% - 100px);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   width: 90%;
   height: 200px;
+  margin: auto;
   padding: 20px;
   border-radius: 25px;
   background-color: white;
